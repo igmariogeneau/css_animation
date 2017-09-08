@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.animation {
+	width: 100px;
+    height: 100px;
+    background-color: red;
+	position: absolute;
+	z-index: 100;
+}
+
+.bloc1 {
+	width: 100px;
+    height: 100px;
+    background-color: blue;
+	position: absolute;
+	float: left;
+	z-index: 99;
+}
+
+.bloc2 {
+	width: 100px;
+    height: 100px;
+    background-color: green;
+	position: absolute;
+	float: left;
+	z-index: 98;
+}
+
+.bloc3 {
+	width: 100px;
+    height: 100px;
+    background-color: yellow;
+	position: absolute;
+	float: left;
+	z-index: 97;
+}
+
+@keyframes bloc1 {
+    0%   {left:0px; top:0px;}
+	100%   {left:100px; top:0px;}
+}
+
+@keyframes bloc2 {
+    0%   {left:0px; top:0px;}
+	100%   {left:200px; top:0px;}
+}
+
+@keyframes bloc3 {
+    0%   {left:0px; top:0px;}
+	100%   {left:300px; top:0px;}
+}
+
+@keyframes bloc3R {
+    0%   {left:300px; top:0px;}
+	100%   {left:0px; top:0px;}
+}
+
+@keyframes bloc2R {
+    0%   {left:200px; top:0px;}
+	100%   {left:0px; top:0px;}
+}
+
+@keyframes bloc1R {
+    0%   {left:100px; top:0px;}
+	100%   {left:0px; top:0px;}
+}
+
+
+
+
+
+
+
+
+
